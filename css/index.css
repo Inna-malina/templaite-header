@@ -1,0 +1,39 @@
+@import url('header.css');
+
+* {
+  margin: 0px;
+  padding: 0px;
+  box-sizing: border-box;
+}
+
+body {
+  overflow-x: hidden;
+}
+
+ul {
+  list-style-type: none;
+}
+
+:root {
+  --Inter: "Inter", sans-serif;
+  --Charis: "Charis SIL", serif;
+  --index: calc(1vw + 1vh);
+  --text: #1E2533;
+}
+
+.center {
+  max-width: 1352px;
+  margin: 0px auto;
+}
+
+@media (max-width: 1360px) {
+  .center {
+    width: 100%;
+    padding: 0px 25px;
+    margin: 0px auto;
+  }
+}
+
+a {
+  text-decoration: none;
+}
